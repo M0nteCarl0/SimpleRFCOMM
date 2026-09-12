@@ -1,0 +1,21 @@
+# Build folders
+build/
+bin/
+lib/
+out/
+
+# IDE files
+.vs/
+*.user
+*.suo
+.idea/
+.vscode/
+
+# Compiled objects
+*.o
+*.obj
+*.exe
+*.lib
+*.a
+*.pdb
+*.ilk
