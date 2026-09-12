@@ -109,7 +109,7 @@ int main() {
 
 ## Verified Hardware Benchmarks
 
-The library has been verified with real Bluetooth hardware between a **Windows 11 host** (Intel Wireless Bluetooth, BD_ADDR `8C:E9:EE:81:55:F5`) and an **NVIDIA Jetson Orin** (Realtek Bluetooth 5.1, BD_ADDR `9C:C7:D3:F6:E6:A8):
+The library has been verified with real Bluetooth hardware between a **Windows 11 host** (Intel Wireless Bluetooth, BD_ADDR `8C:E9:EE:81:55:F5`) and an **NVIDIA Jetson Orin** (Realtek Bluetooth 5.1, BD_ADDR `9C:C7:D3:F6:E6:A8`):
 
 ### 1. Throughput Benchmark (2 MB Data Stream with SDP Discovery)
 
