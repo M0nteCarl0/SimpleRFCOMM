@@ -54,8 +54,10 @@ target_link_libraries(server_bench PRIVATE simple_rfcomm)
 add_executable(client_bench examples/client_bench.cpp)
 target_link_libraries(client_bench PRIVATE simple_rfcomm)
 
+find_package(Threads REQUIRED)
+
 add_executable(chat_echo examples/chat_echo.cpp)
-target_link_libraries(chat_echo PRIVATE simple_rfcomm)
+target_link_libraries(chat_echo PRIVATE simple_rfcomm Threads::Threads)
 
 add_executable(serial_port_demo examples/serial_port_demo.cpp)
 target_link_libraries(serial_port_demo PRIVATE simple_rfcomm)
